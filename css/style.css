@@ -1,0 +1,60 @@
+header{
+    height:100vh;
+    background-image:url('../assets/header.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    background: transparent;
+    border-bottom: 2px solid white;
+}
+
+header button{
+    background: transparent;
+    border:2px solid white;
+    color:white;
+    padding:5px;
+    font-size:26px;
+}
+.card img{
+    height:200px;
+}
+#reservation{
+    background-image:url('../assets/reservation.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#reservation h1{
+    color:#a30909;
+}
+#reservation label{
+    font-weight: bold;
+}
+nav li{
+    cursor: pointer;
+}
+header button:hover{
+    background-color: rgba(255,255,255,0.3);
+    color: rgba(0,0,0,0.5);
+}
+#up-button{
+    display:none;
+    position:fixed;
+    right:30px;
+    bottom:20px;
+    z-index:88;
+    outline:none;
+    background-color: transparent;
+    border:none;
+    background-image: url('../assets/arr_up.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:70px;
+    width:70px;
+    cursor:pointer;
+}
+html,body{
+    overflow-x: hidden;
+}
